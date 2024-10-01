@@ -1,0 +1,44 @@
+@layer reset {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    height: 100%;
+  }
+}
+
+@layer base-color {
+  :root {
+    --text-color: #ccc;
+    --bg-color: #121212;
+    --primary: #FFC200;
+  }
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+#app {
+  display: grid;
+  place-content: center;
+  position: fixed;
+  inset: 0;
+
+  nav {
+    display: inline-flex;
+    gap: 1em;
+
+    a {
+      text-decoration: none;
+      color: var(--text-color);
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+}
