@@ -1,20 +1,15 @@
-# vite-vanilla
-Development template for HTML, JavaScript, CSS project. This template includes [Teriyaki JS](https://github.com/manit-tree/teriyaki) (A light weight JavaScript Helper inspired by jQuery) to make development fast and fun.
+# using-navigo
 
-## Folder Structure
+Mini project for learning how to use Navigo, a small JavaScript router.
 
-![image](https://github.com/user-attachments/assets/cf906917-020c-4b7b-b522-ee1910097ef9)
+## Setup
 
-## package.json
+![image](https://github.com/user-attachments/assets/e4f2fadb-8dc9-43d0-834c-3367585606d3)
 
-![image](https://github.com/user-attachments/assets/ea204c76-6bcc-4ad6-aae9-8d4b0ba6b7b8)
+## app.js
 
-## Use Cases
+![image](https://github.com/user-attachments/assets/2b757aff-6a4a-4d3b-9127-7c8c22ff421d)
 
-- Develop mini project.
-- Practicing with JavaScript and CSS.
-- Learning how to use new JavaScript modules or APIs.
+## References
 
-## Usage
-
-git clone https://github.com/manit-tree/vite-vanilla.git [folder-name]
+[https://github.com/krasimir/navigo](https://github.com/krasimir/navigo)
